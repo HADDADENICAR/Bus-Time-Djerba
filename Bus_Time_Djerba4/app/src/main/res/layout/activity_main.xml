@@ -11,18 +11,17 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@drawable/background"
-        >
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
             android:text="@string/taper_ou_vous_tes"
             android:textColor="#000000"
             android:textSize="20.sp" />
@@ -43,10 +42,8 @@
             android:id="@+id/textview2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/autoText"
-            android:layout_marginTop="17dp"
             android:text="Destination"
             android:textColor="#000000"
             android:textSize="20.sp" />
@@ -55,18 +52,16 @@
             android:id="@+id/autoText2"
             android:layout_width="175dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_below="@+id/textview2"
-            android:inputType="text"
-            android:background="@drawable/raduiseditor" />
+            android:background="@drawable/raduiseditor"
+            android:inputType="text" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/textview2"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/textview2"
             android:layout_below="@+id/autoText2"
             android:text="ok" />
 

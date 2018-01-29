@@ -13,6 +13,16 @@
         <item>Seduikch</item>
         <item>Guecheine</item>
         <item>Oued zbib</item>
+
+        <!--les mix ("les station juste au milieu) peuvent etre aussi des station de depart-->
+        <item>El May</item>
+        <item>Zone Touristique</item>
+        <item>Dar-djerba</item>
+        <item>Midoun</item>
+        <item>Erriadh</item>
+        <item>Mellita</item>
+        <item>Robbana</item>
+
     </string-array>
     <string-array name="tableau_des_gars_destinations">
         <item>El May</item>
@@ -30,5 +40,6 @@
         <item>Seduikech</item>
         <item>Guecheine</item>
         <item>Oued zbib</item>
+        <item>HoumetSouk</item>
     </string-array>
 </resources>
