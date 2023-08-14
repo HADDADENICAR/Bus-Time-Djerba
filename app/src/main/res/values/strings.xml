@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Bus_Time_Djerba</string>
+    <string name="taper_ou_vous_tes">Taper ou vous êtes</string>
+    <string name="retour">Retour</string>
+    <string name="ligne_gars_de_d_parts_destination">ligne:gars de départs-destination</string>
+    <string-array name="tableau_des_gars_departs">
+        <item>HoumetSouk</item>
+        <item>Club-med</item>
+        <item>Ajim</item>
+        <item>Béni maaguel</item>
+        <item>Guellala</item>
+        <item>Aeroport</item>
+        <item>Seduikech</item>
+        <item>Guecheine</item>
+        <item>Oued zbib</item>
+
+        <!--les mix ("les station juste au milieu) peuvent etre aussi des station de depart-->
+        <item>El May</item>
+        <item>Zone Touristique</item>
+        <item>Dar-djerba</item>
+        <item>Midoun</item>
+        <item>Erriadh</item>
+        <item>Mellita</item>
+        <item>Robbana</item>
+
+    </string-array>
+    <string-array name="tableau_des_gars_destinations">
+        <item>El May</item>
+        <item>Midoun</item>
+        <item>Club-med</item>
+        <item>Zone Touristique</item>
+        <item>Dar-djerba</item>
+        <item>Ajim</item>
+        <item>Béni maaguel</item>
+        <item>Erriadh</item>
+        <item>Guellala</item>
+        <item>Mellita</item>
+        <item>Aeroport</item>
+        <item>Robbana</item>
+        <item>Seduikech</item>
+        <item>Guecheine</item>
+        <item>Oued zbib</item>
+        <item>HoumetSouk</item>
+    </string-array>
+</resources>
